@@ -1,0 +1,14 @@
+
+.page{
+    display:flex;
+    flex-direction: column;
+    width: 50vm;
+    align-items: center;
+    background-color: gray;
+    padding: 2rem;
+}
+
+.heading{
+    margin-top: 0.5rem;
+}
+
