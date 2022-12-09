@@ -21,6 +21,7 @@ h1 {
 .description {
     font-size: large;
     margin-top: 0;
+    color: white;
 }
 
 input {
