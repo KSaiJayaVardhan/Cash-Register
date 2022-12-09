@@ -30,7 +30,7 @@ checkButton.addEventListener("click", function validateTheBillAmountAndCashAmoun
         }
     }
     else {
-        showMessage("Please provide an amount greater than 0");
+        showMessage("Please provide an amount greater than '0'");
     }
 });
 
