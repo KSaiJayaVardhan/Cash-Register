@@ -10,7 +10,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     background-color: gray;
-    padding: 2rem;
+    padding-top: 2rem;
     height: 100%;
 }
 
@@ -30,6 +30,7 @@ input {
     height: 1.8rem;
     border-radius: 5px;
     width: 6cm;
+    padding-left: 1rem;
 }
 
 label {
@@ -75,13 +76,42 @@ table, tr, th, td {
     border-collapse: collapse;
     width: 500px;
     border-width: medium;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
 
 th, td{
     padding: 10px;
     text-align: center;
 }
+
+footer {
+    display: block;
+    margin: auto;
+    margin-bottom: 0rem;
+    width: 300px;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+a, img, li {
+    display: inline;
+    color: gray;
+}
+
+ .footer-list {
+    margin: 1rem;
+ }
+
+ img {
+    width: 30px;
+    padding: 0rem 0.4rem;
+ }
 
 
 
